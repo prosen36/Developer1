@@ -113,15 +113,40 @@ nav a {
 
 /* main section styles */
 
+main {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+
 /* about section styles */
 .about {
     padding: 131px;
     border-radius: 10px;
     background: #FFF8F3;
-    width: 1140px;
-    height: 550px;
-    flex-shrink: 0;
-    margin: 130px ;
+    margin: 130px;
 
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    text-align: center;
+    padding-inline: 50px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* What i do section */
+
+#what i do section{
+    padding: 30px 30px;
 }
